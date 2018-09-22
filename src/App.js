@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Jumbotron } from 'reactstrap';
-import URLTable from './components/tables';
 import './App.css';
-import Profile from './components/userPage';
+import Tabs from './components/main';
 
 class App extends Component {
   render() {
@@ -11,10 +9,7 @@ class App extends Component {
       <header className="App-header">
         <h2 className="App-title">URL Shortener</h2>
       </header>
-      <Jumbotron>
-        <URLTable/>
-      </Jumbotron>    
-      <Profile/>
+      <Tabs />
     </div>
     );
   }
