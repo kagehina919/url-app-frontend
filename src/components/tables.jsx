@@ -1,6 +1,7 @@
 import React from 'react';
 import { Table } from 'reactstrap';
 import TableRow from './urlRow';
+import ModalExample from './RowDelete';
 
 
 class URLTable extends React.Component {
@@ -37,6 +38,7 @@ class URLTable extends React.Component {
             <th>Sr. No.</th>
             <th>Long-URL</th>
             <th>Short-URL</th>
+            <th>Delete</th>
           </tr>
         </thead>
         <tbody>

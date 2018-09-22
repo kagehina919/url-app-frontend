@@ -1,7 +1,6 @@
 import React from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import Cards from './userCard';
-import Carousels from './images';
 
 class Profile extends React.Component {
     constructor(props) {
@@ -36,7 +35,6 @@ toggle() {
         </DropdownMenu>
       </Dropdown>
       <Cards />
-      <Carousels />
     </div>
     );
   }

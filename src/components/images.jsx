@@ -3,17 +3,17 @@ import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCa
 
   const items = [
     {
-      src: 'data:image/'
+      src: 'https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=&url=https%3A%2F%2Fotakukart.com%2Fanime%2Fhaikyuu-season-4-release-date-spoilers%2F&psig=AOvVaw3bGynqXtsiHjAQ9NKBcJG1&ust=1537696141807071',
       altText: 'Season 1',
       caption: 'Start'
     },
     {
-      src: 'data:image/'
+      src: 'data:image/',
       altText: 'Season 2',
       caption: 'development'
     },
     {
-      src: 'data:image/
+      src: 'data:image/',
       altText: 'Season 3',
       caption: 'victory'
     }
